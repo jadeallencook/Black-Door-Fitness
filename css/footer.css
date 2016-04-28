@@ -1,0 +1,15 @@
+#footer {
+    width: 100%;
+    display: block;
+    padding-top: 25px;
+}
+
+.footer-section {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+}
+
+.footer-section h1 {
+    font-size: 1.5em;
+}

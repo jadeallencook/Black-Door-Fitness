@@ -1,0 +1,49 @@
+#navbar {
+    width: 100%;
+    background-color: #FFF;
+    display: block;
+    position: fixed;
+    top: 0px;
+    font-family: 'Futura';
+    z-index: 5;
+}
+
+#navbar-logo {
+    width: 25%;
+    min-width: 345px;
+    margin: 50px auto;
+    display: block;
+}
+
+#navbar-links {
+    display: inline-table;
+}
+
+.navbar-link {
+    display: inline-block;
+    float: left;
+    margin: 0px 15px;
+    text-transform: uppercase;
+    font-size: .75em;
+    border-top: 2px solid #FFF;
+    border-bottom: 2px solid #FFF;
+}
+
+.navbar-link:hover {
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+.navbar-href {
+    color: #000;
+}
+
+.navbar-active {
+    display: inline-block;
+    float: left;
+    margin: 0px 15px;
+    text-transform: uppercase;
+    font-size: .75em;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}

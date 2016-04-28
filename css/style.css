@@ -1,0 +1,187 @@
+/* Coded by Jade Allen Cook 2015 */
+
+/* Setup the browser defualts */
+html, body {
+    margin: 90px 0px 0px 0px;
+    padding: 0px;
+    background-color: #FFF;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Load custom fonts */
+@font-face {
+    font-family: 'New Age Gothic';
+    src: url('../etc/NewAgeGothic.otf');
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url('../etc/Futura.ttc');
+}
+
+/* What loads on the 404 page */
+#featured-container {
+    background-image:url('../img/crave.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    color: #FFF;
+    text-align: center;
+    color: #FFF;
+    display: inline-table;
+}
+
+#featured-container span {
+    font-size: 2em;
+    display: block;
+    margin: 55px 0px 25px 0px;
+}
+
+#featured-container p {
+    font-size: 1em;
+    display: block;
+    margin: 25px 0px 55px 0px;
+}
+
+#featured-square {
+    display: inline-block;
+    border: 10px solid #FFF;
+    padding: 15px 15px 0px 15px;
+    font-size: 5em;
+    font-family: 'New Age Gothic';
+    margin: 0px 25px;
+    color: #FFF;
+}
+
+#featured-square:hover {
+    border: 10px solid #FFF;
+    color: #FFF;
+    background-color:rgba(0,0,0,0.4);
+}
+
+#featured-items {
+    width: 100%;
+    height: 400px;
+    padding: 25px 0px;
+    display: inline-table;
+    text-align: center;
+}
+
+/* What loads on the Model page */
+#model-container {
+    background-image:url('../img/flexin.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    color: #FFF;
+    text-align: center;
+    color: #FFF;
+    display: inline-table;
+}
+
+#model-container span {
+    font-size: 2em;
+    display: block;
+    margin: 55px 0px 25px 0px;
+}
+
+#model-container p {
+    font-size: 1em;
+    display: block;
+    margin: 25px 0px 55px 0px;
+}
+
+/* modeling images */
+
+.modeling-post {
+    margin: 150px 0px;
+}
+
+.modeling-post h1 {
+    font-weight: 100;
+    text-transform: capitalize;
+}
+
+.modeling-post p {
+    width: 50%;
+}
+
+.model-picture {
+    width: 75%;
+    max-width: 1000px;
+}
+
+/* Items for sale */
+
+#featured-items {
+    width: 100%;
+    height: 400px;
+    padding: 25px 0px;
+    display: inline-table;
+    text-align: center;
+}
+
+.item {
+    height: 100%;
+    display: inline-block;
+    width: 33%;
+    max-width: 350px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.item h1 {
+    font-size: 1.25em;
+    font-weight: 100;
+    line-height: 15px;
+}
+
+.item p {
+    font-size: 1em;
+    font-weight: 100;
+    line-height: 0px;
+}
+
+.item span {
+    line-height: 0px;
+}
+
+.item img {
+    height: 400px;
+}
+
+@media screen and (max-width: 1000px) {
+    .item:last-child {
+        display: none;
+    }
+    .item {
+        width: 50%;
+    }
+}
+
+#about-us-section {
+    width: 100%;
+    text-align: center;
+    background-color: #000;
+    color: #FFF;
+}
+
+#about-us-section h1 {
+    font-weight: 100;
+    padding-top: 20px;
+}
+
+#about-us-section p {
+    width: 75%;
+}
+
+#about-us-section img {
+    width: 100%;
+    margin-bottom: -5px;
+    margin-top: 10px;
+}
+
+#footer-image {
+    width: 100%;
+    margin-top: 25px;
+}
